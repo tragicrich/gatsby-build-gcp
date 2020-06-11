@@ -1,0 +1,30 @@
+{
+  "author": {
+    "name": "Matteo Gioioso"
+  },
+  "dependencies": {
+    "@google-cloud/common": "^0.13.0",
+    "async": "^2.0.1",
+    "extend": "^3.0.0"
+  },
+  "deprecated": false,
+  "description": "Function for triggering cloud build",
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "request": "^2.70.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "license": "MIT",
+  "main": "./index.js",
+  "name": "google-cloud-build-trigger",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatteoGioioso/google-cloud-build-trigger.git"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "version": "0.1.0"
+}
